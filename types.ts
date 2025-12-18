@@ -1,3 +1,4 @@
+
 export enum UserRole {
   ADMIN = 'ADMIN',
   GRC_MANAGER = 'GRC_MANAGER',
@@ -45,7 +46,7 @@ export enum ControlEffectiveness {
 export enum ActionPlanStatus {
   OPEN = 'ABERTO',
   IN_PROGRESS = 'EM_ANDAMENTO',
-  DELAYED = 'ATRASADO',
+  DELAYED = 'VENCIDO',
   DONE = 'CONCLUÍDO',
   VALIDATED = 'VALIDADO' // Validated by auditor
 }

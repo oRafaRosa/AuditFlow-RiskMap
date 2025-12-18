@@ -145,7 +145,7 @@ export const Dashboard: React.FC = () => {
             <p className="text-sm text-gray-500">Planos de Ação</p>
             <div className="flex items-baseline gap-2">
                 <p className="text-2xl font-bold">{openPlans.length}</p>
-                {delayedPlans.length > 0 && <span className="text-xs text-red-600 font-bold">({delayedPlans.length} atrasados)</span>}
+                {delayedPlans.length > 0 && <span className="text-xs text-red-600 font-bold">({delayedPlans.length} vencidos)</span>}
             </div>
           </div>
         </div>
