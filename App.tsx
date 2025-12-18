@@ -8,6 +8,7 @@ import { ControlList } from './components/ControlList';
 import { ActionPlanList } from './components/ActionPlanList';
 import { RiskDetail } from './components/RiskDetail';
 import { About } from './components/About';
+import { AppsHub } from './components/AppsHub';
 import { api } from './services/mockDb';
 import { User, Risk } from './types';
 
@@ -70,6 +71,8 @@ export default function App() {
         return <ControlList />;
       case 'action-plans':
         return <ActionPlanList />;
+      case 'apps':
+        return <AppsHub />;
       case 'about':
         return <About />;
       default:

@@ -34,7 +34,7 @@ export const About: React.FC = () => {
 
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Desenvolvimento Interno</h2>
         <p className="text-xl text-gray-600 font-medium max-w-3xl mx-auto leading-relaxed">
-          "Este aplicativo foi <span className="text-brand-blue font-bold">100% desenvolvido</span> pela equipe de <span className="text-gray-900">Auditoria Interna do Grupo Casas Bahia</span>."
+          Este aplicativo foi <span className="text-brand-blue font-bold">100% desenvolvido</span> pela equipe de <span className="text-gray-900">Auditoria Interna do Grupo Casas Bahia</span>.
         </p>
 
         <div className="mt-8 flex justify-center gap-2">
