@@ -9,12 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.3",
-    "lucide-react": "^0.562.0",
-    "react-dom": "^19.2.3",
-    "recharts": "^3.6.0",
     "express": "^5.2.1",
     "cors": "^2.8.5",
+    "vite": "^7.3.0",
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
+    "recharts": "^3.6.0",
     "@prisma/client": "^7.2.0"
   },
   "devDependencies": {
